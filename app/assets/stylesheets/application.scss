@@ -1,0 +1,104 @@
+// Graphical variables
+@import "config/fonts";
+@import "config/colors";
+@import "config/bootstrap_variables";
+
+// External libraries
+@import "bootstrap/scss/bootstrap";
+
+// Your CSS partials
+@import "components/index";
+@import "pages/index";
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+
+.flat-card {
+    width: 100%;
+    position: relative;
+    margin: .5rem 0 1rem 0;
+    background-color: #fff;
+    border-radius: 2px;
+}
+
+.flat-card-image {
+    height: 180px;
+    background-position: center;
+    background-size: cover;
+}
+
+.flat-card-content {
+    padding: 24px;
+    background-color: #F8F9FA;
+    height: 170px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flat-card-actions {
+    position: relative;
+    background-color: inherit;
+    border-top: 1px solid rgba(160,160,160,0.2);
+    padding: 16px 24px;
+}
+
+div {
+    display: block;
+}
+
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.navbar-collapse {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.ml-auto {
+    margin-left: auto!important;
+}
+
+a {
+  text-decoration: none;
+}
+
+.addflat {
+  margin: auto;
+  width: 500px;
+}
